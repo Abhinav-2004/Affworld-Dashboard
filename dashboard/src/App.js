@@ -1,10 +1,11 @@
 import React from 'react'
 import './App.css'
+import SectionTwo from './Components/SectionTwo'
 const App = () => {
   return (
-    <div className='text-3xl'>
-      Hello
-    </div>
+    <>
+    <SectionTwo/>
+    </>
   )
 }
 
