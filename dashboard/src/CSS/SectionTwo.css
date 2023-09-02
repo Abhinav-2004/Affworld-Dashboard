@@ -1,11 +1,17 @@
 .card1{
     min-height: 60vh;
+    transition: 0.5s all;
+}
+.card1:hover{
+    transform: scale(1.05);
+    transition: 0.5s all;
 }
 .card-group{
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: repeat( auto-fit, minmax(250px, 4fr) );
     gap:5%;
+    justify-items: center;
 }       
 
 @media only screen and (max-width: 900px) {

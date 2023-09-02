@@ -5,6 +5,7 @@ import FirstSection from './Components/FirstSection/FirstSection'
 import ThirdSection from './Components/ThirdSection/ThirdSection'
 import FourthSection from './Components/FourthSection/FourthSection'
 import FifthSection from './Components/FifthSection/FifthSection'
+import SixthSection from './Components/SixthSection/SixthSection'
 const App = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const App = () => {
     <ThirdSection/>
     <FourthSection/>
     <FifthSection/>
+    <SixthSection/>
     </>
   )
 }

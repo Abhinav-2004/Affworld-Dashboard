@@ -1,0 +1,16 @@
+.cards-group-sixth-section{
+    display:grid;
+    grid-auto-flow:row;
+    grid-template-columns: repeat( auto-fit, minmax(400px, 3fr) );
+    gap:2%;
+    justify-items: center;
+}
+
+.each-card{
+    transition: 0.2s all;
+}
+
+.each-card:hover{
+    transform: scale(1.05);
+    transition: 0.2s all;
+}

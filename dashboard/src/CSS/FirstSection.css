@@ -5,8 +5,13 @@
     background-size:80vw 90vh;
     background-position: center;
 }
+.signup{
+    transition: 0.2s all;
+}
 .signup:hover{
-    background-color: antiquewhite;
+    background-color: rgba(164, 218, 241, 0.374);
+    transform: scale(1.1);
+    transition: 0.2s all;
 }
 .cards{
     min-width: 15vw;
