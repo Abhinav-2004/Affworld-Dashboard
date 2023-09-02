@@ -1,0 +1,15 @@
+.main-div{
+    height: 90vh;
+    background: url('../Components/FirstSection/firstsection1.png');
+    background-repeat: no-repeat;
+    background-size: 80vw;
+    background-position: center;
+}
+.signup:hover{
+    background-color: antiquewhite;
+}
+.cards{
+    min-width: 15vw;
+    border:2px solid rgba(198, 193, 193, 0.489);
+    box-shadow: 8px 8px 6px 2px rgb(227, 219, 219);
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import '../CSS/SectionTwo.css';
+import '../../CSS/SectionTwo.css';
 const SectionTwo = () => {
   return (
     <div className="flex justify-center items-center flex-col bg-[#831bf323] m-[5%] p-[2%]">
