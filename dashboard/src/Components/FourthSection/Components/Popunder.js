@@ -7,7 +7,7 @@ const Popunder = () => {
         <div className="flex">
           <img src="/assets/images/popunderImg.png" className="w-[18vw]" />
         </div>
-        <div className="font-sm font-semibold text-[#0000007d]">
+        <div className="font-sm font-semibold text-[#0000007d] text-center">
           When User clicks on the website, Ads open in new tab.
         </div>
       </div>

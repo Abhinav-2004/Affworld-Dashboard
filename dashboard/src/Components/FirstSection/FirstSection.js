@@ -2,7 +2,7 @@ import React from "react";
 import "../../CSS/FirstSection.css";
 const FirstSection = () => {
   return (
-    <div className="main-div flex justify-between items-center flex-row m-[5%] p-[2%]">
+    <div className="main-div flex justify-between items-center flex-row m-[5%] p-[2%] mt-0">
       <div className="w-[50%] flex flex-col">
         <div className="w-[100%] flex text-left text-[5vh] font-semibold text-[#392976]">
           You've discovered the

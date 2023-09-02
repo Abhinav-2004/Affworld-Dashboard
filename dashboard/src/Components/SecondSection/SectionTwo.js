@@ -13,7 +13,8 @@ const SectionTwo = () => {
         straightforward process that only requires a few minutes of your time!
       </div>
       <div>
-        <div className="card-group flex flex-row w-[100%] mt-[6%] justify-between items-center gap-5 text-[#5b3eff] font-semibold">
+        <div className="flex justify-center items-center">
+        <div className="card-group mt-[6%] text-[#5b3eff] font-semibold ml-[-3.5%]">
           <div className="card1 flex flex-col justify-center items-center bg-white border-2 w-[20vw] rounded-3xl">
             <div className="flex justify-start items-left pt-7 pl-7 pr-7 w-[100%]">
               <img src="/assets/images/sectiontwo1.png" className="w-[50%]" />
@@ -62,6 +63,7 @@ const SectionTwo = () => {
               and gambling affiliate networks.
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>
