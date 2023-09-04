@@ -1,16 +1,40 @@
 .cards-group-sixth-section{
-    display:grid;
-    grid-auto-flow:row;
-    grid-template-columns: repeat( auto-fit, minmax(400px, 3fr) );
-    gap:2%;
-    justify-items: center;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 10px;
 }
 
 .each-card{
+    width: auto;
+    height: 300px;
     transition: 0.2s all;
 }
 
 .each-card:hover{
     transform: scale(1.05);
     transition: 0.2s all;
+}
+@media only screen and (max-width: 900px) {
+    .desktop-view{
+        display: none;
+    }
+    .cards-group-sixth-section{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .each-card{
+        width: auto;
+        height: 300px;
+        transition: 0.2s all;
+    }
+}
+@media only screen and (min-width: 900px) {
+    .mobile-view{
+        display: none;
+    }
 }
