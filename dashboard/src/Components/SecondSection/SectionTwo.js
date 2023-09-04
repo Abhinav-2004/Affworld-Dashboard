@@ -2,7 +2,7 @@ import React from "react";
 import '../../CSS/SectionTwo.css';
 const SectionTwo = () => {
   return (
-    <div className="flex justify-center items-center flex-col bg-[#831bf323] m-[5%] p-[2%]">
+    <div className="flex justify-center items-center flex-col bg-[#831bf323] m-[5%] p-[2%] h-fit">
       <div className="flex w-[100%] text-[300%] text-left ml-[4%] text-[#392976]">
         How AffWorld Works
       </div>
