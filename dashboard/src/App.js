@@ -13,7 +13,7 @@ const App = () => {
     <FirstSection/>
     <SectionTwo/>
     <ThirdSection/>
-    <FourthSection/>
+    
     <FifthSection/>
     <SixthSection/>
     <SeventhSection/>

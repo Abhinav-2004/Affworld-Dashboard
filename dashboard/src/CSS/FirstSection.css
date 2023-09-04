@@ -19,3 +19,22 @@
     border:2px solid rgba(198, 193, 193, 0.489);
     box-shadow: 8px 8px 6px 2px rgb(227, 219, 219);
 }
+@media only screen and (min-width: 900px) {
+    .mobile-view{
+        display: none;
+    }
+    
+  }
+@media only screen and (max-width: 900px) {
+    .dekstop-view{
+        display: none;
+    }
+    .cards{
+        width:300px;
+        background-color: white;
+        border:2px solid rgba(198, 193, 193, 0.489);
+        box-shadow: 8px 8px 6px 2px rgb(227, 219, 219);
+    }
+  }
+
+ 
