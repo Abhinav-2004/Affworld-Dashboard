@@ -3,7 +3,7 @@ import '../../CSS/SectionTwo.css';
 const SectionTwo = () => {
   return (
     <div className="affworld-works flex justify-center items-center flex-col bg-[#831bf323] m-[5%] p-[2%] h-fit">
-      <div className="flex w-[100%] text-[300%] text-left ml-[4%] text-[#392976]">
+      <div className="heading-text flex w-[100%] text-[300%] text-left ml-[4%] text-[#392976]">
         How AffWorld Works
       </div>
       <div className="flex w-[100%] text-left text-[13px] ml-[4%] mt-[1%] text-[#9e4bf1] font-semibold">
