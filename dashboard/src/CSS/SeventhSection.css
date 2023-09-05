@@ -1,0 +1,9 @@
+@media only screen and (max-width: 900px) {
+    .faq-text{
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    .accordion-div{
+        margin: 40px;
+    }
+  }

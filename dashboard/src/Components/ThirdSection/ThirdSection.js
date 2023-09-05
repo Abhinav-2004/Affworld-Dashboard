@@ -59,8 +59,8 @@ const ThirdSection = () => {
       </div>
 
       <div className="mobile-view flex flex-col justify-between items-center m-[5%] p-[2%]">
-        <div className="flex w-[100%] text-2xl text-left font-semibold">
-          Profits from Diverse <br/> traffic sources.
+        <div className="flex w-[100%] text-2xl text-center font-semibold">
+          Profits from Diverse traffic sources.
         </div>
         <div className="flex justify-center items-center flex-col mt-[5%]">
           <div className="w-auto flex flex-col justify-center items-center">
@@ -72,7 +72,7 @@ const ThirdSection = () => {
               />
             </div>
             <div className="w-[100%] text-left mt-[5%] text-[3vh] font-semibold text-[#5266a9]">
-              Social media and mobile platforms.<br/>
+              Social media and mobile platforms
               <span className="text-[#9e4bf1] font-semibold"> app traffic</span>
             </div>
             <div className="text-left font-semibold text-md mt-[2%] text-[#5266a9]">

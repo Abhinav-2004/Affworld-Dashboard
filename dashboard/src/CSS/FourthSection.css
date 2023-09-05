@@ -2,6 +2,10 @@
     .desktop-view{
         display: none;
     }
+    
+    .mobile-view{
+      gap:20px
+    }
   }
 
 @media only screen and (min-width: 900px) {

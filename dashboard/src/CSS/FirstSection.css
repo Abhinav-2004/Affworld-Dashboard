@@ -35,6 +35,15 @@
         border:2px solid rgba(198, 193, 193, 0.489);
         box-shadow: 8px 8px 6px 2px rgb(227, 219, 219);
     }
+    .heading-text{
+        font-size: 25px;
+        margin-top: 70px;
+    }
+    .signup{
+        padding: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
   }
 
  

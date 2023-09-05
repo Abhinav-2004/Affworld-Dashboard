@@ -32,6 +32,12 @@
         height: 300px;
         transition: 0.2s all;
     }
+    .mobile-view{
+        margin-top: 70px;
+    }
+    .mobile-view .heading-text{
+        margin-bottom:30px;
+    }
 }
 @media only screen and (min-width: 900px) {
     .mobile-view{

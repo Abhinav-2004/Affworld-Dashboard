@@ -123,7 +123,7 @@ const SixthSection = () => {
 
 
     <div className="mobile-view flex flex-col justify-between items-center m-[5%] mt-[0%] p-[2%]">
-      <div className="text-3xl flex text-[#392976]">Why choose us</div>
+      <div className="heading-text text-3xl flex text-[#392976]">Why choose us</div>
       <div className="flex justify-center items-center w-[100%] mt-[2%]">
         <div className="cards-group-sixth-section w-[100%]">
           <div className="each-card flex flex-col justify-center items-center bg-white border-2 w-[380px] rounded-3xl">

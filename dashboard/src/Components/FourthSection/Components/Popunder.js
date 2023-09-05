@@ -33,7 +33,7 @@ const Popunder = () => {
 
 
     <div className="mobile-view flex flex-col items-center justify-center gap-20">
-      <div className="flex flex-col justify-center items-center gap-5">
+      <div className="flex flex-col justify-start items-center gap-5">
         <div className="flex">
           <img src="/assets/images/popunderImg.png" />
         </div>

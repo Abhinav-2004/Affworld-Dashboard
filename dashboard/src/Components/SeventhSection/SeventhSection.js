@@ -7,13 +7,14 @@ import {
   AccordionIcon,
   Box,
 } from "@chakra-ui/react";
+import "../../CSS/SeventhSection.css"
 const SeventhSection = () => {
   return (
     <div className="flex justify-center items-center flex-col  m-[5%] p-[2%]">
-      <div className="text-6xl flex w-[100%] text-left text-[#392976] font-semimedium">
+      <div className="faq-text text-6xl flex w-[100%] text-left text-[#392976] font-semimedium">
         Frequently Asked Questions
       </div>
-      <div className="flex justify-center items-center w-[100%] mt-[5%]">
+      <div className="accordion-div flex justify-center items-center w-[100%] mt-[5%]">
         <Accordion>
           <AccordionItem sx={{width:"70vw", padding:'10px'}}
           >

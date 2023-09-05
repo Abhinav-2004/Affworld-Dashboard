@@ -214,7 +214,7 @@ const FourthSection = () => {
           </div>
         </div>
 
-        <div className="flex justify-center items-center mt-[4%]">
+        <div className="components first-letter:flex justify-center items-center mt-[4%]">
           {active === 1 && (
             <>
               <Popunder />
