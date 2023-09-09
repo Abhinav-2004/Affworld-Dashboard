@@ -28,6 +28,18 @@
     padding-top: 3%;
     
 }
+.hover-model-features-mobile{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    z-index:100;
+    margin-top:50px;
+    padding: 1%;
+    padding-top: 3%;
+    
+}
 .optionFeatures{
  padding-bottom: 4%;
  
