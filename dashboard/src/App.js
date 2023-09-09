@@ -7,9 +7,11 @@ import FourthSection from './Components/FourthSection/FourthSection'
 import FifthSection from './Components/FifthSection/FifthSection'
 import SixthSection from './Components/SixthSection/SixthSection'
 import SeventhSection from './Components/SeventhSection/SeventhSection'
+import Navbar from './Components/Navbar/Navbar'
 const App = () => {
   return (
     <>
+    <Navbar/>
     <FirstSection/>
     <SectionTwo/>
     <ThirdSection/>
