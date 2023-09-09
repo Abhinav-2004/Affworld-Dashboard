@@ -203,7 +203,7 @@ const Navbar = () => {
           Start
         </Button>
         <button onClick={()=>{
-            setMobileDisplay(true);
+            setMobileDisplay(!mobileDisplay);
         }} className="flex justify-center items-center">
         <RxHamburgerMenu size={30}/>
         </button>
@@ -212,47 +212,41 @@ const Navbar = () => {
     {mobileDisplay && <div className="hover-model-features-mobile">
     <div className="absolute z-50 bg-white w-[100vw] flex-row justify-center items-center">
     <div className="flex flex-row justify-center items-center">
-    <div className="middle-options flex-col justify-between items-center text-md font-semibold">
-        <div className="flex flex-row gap-10">
-        <button className="optionFeatures flex justify-center items-center gap-2">
+    <div className="middle-options flex-col justify-center items-center text-md font-semibold" >
+        <div className="flex flex-col gap-10">
+        <button className="optionFeatures flex justify-center items-center ">
           <div className="flex justify-center items-center">Features</div>
         </button>
-        <button className="optionFeatures flex justify-between items-center gap-10 text-md font-semibold">
-          <div className="flex justify-center items-center gap-2">
+        <button className="optionFeatures flex justify-center items-center gap-10 text-md font-semibold">
+          <div className="flex justify-center items-center ">
             <div className="flex justify-center items-center">Solutions</div>
           </div>
         </button>
-        <button className="optionFeatures flex justify-between items-center gap-10 text-md font-semibold">
-          <div className="flex justify-center items-center gap-2">
+        <button className="optionFeatures flex justify-center items-center gap-10 text-md font-semibold">
+          <div className="flex justify-center items-center ">
             <div className="flex justify-center items-center">Ad Format</div>
             
           </div>
         </button>
-        </div>
-        <div className="flex flex-row gap-10">
-        <button className="optionFeatures flex justify-between items-center gap-10 text-md font-semibold">
-          <div className="flex justify-center items-center gap-2">
+        <button className="optionFeatures flex justify-center items-center gap-10 text-md font-semibold">
+          <div className="flex justify-center items-center">
             <div className="flex justify-center items-center">Resources</div>
           </div>
         </button>
-        <button className="optionFeatures flex justify-between items-center gap-10 text-md font-semibold">
-          <div className="flex justify-center items-center gap-2">
+        <button className="optionFeatures flex justify-center items-center gap-10 text-md font-semibold">
+          <div className="flex justify-center items-center">
             <div className="flex justify-center items-center">Company</div>
           </div>
         </button>
-        <button className="optionFeatures flex justify-between items-center gap-10 text-md font-semibold">
-          <div className="flex justify-center items-center gap-2">
+        <button className="optionFeaturesn flex justify-center items-center gap-10 text-md font-semibold">
+          <div className="flex justify-center items-center">
             <div className="flex justify-center items-center">Blog</div>
           </div>
         </button>
         </div>
       </div>
     </div>
-    <div className="flex justify-center items-center">
-    <button className="optionFeatures flex justify-between items-center gap-10 text-md font-semibold" onClick={()=>{setMobileDisplay(false)}}>
-            <RxCross1/>
-        </button>
-    </div>
+    
     </div>
     </div>}
 
