@@ -1,0 +1,21 @@
+.footer-main-div{
+    padding: 2%;
+}
+.affworld-logo-text{
+    font-size: 38px;
+    font-weight: bolder;
+    display: flex;
+    gap:20px;
+    justify-content: start;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.footer-bio{
+    width:35%;
+    gap:20px;
+}
+.footer-div-1{
+   width:70%; 
+}

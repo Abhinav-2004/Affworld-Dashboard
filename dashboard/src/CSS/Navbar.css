@@ -17,6 +17,7 @@
     gap:25px;
 }
 .hover-model-features{
+    animation: navbar-option 0.1s;
     position: absolute;
     display: flex;
     width: 100vw;
@@ -29,6 +30,7 @@
     
 }
 .hover-model-features-mobile{
+    animation: navbar-option 0.1s;
     position: absolute;
     display: flex;
     width: 100vw;
@@ -72,6 +74,8 @@
     padding:15px;
 }
 
+
+
 @media only screen and (max-width: 900px) {
     .dekstop-view {
       display: none;
@@ -90,5 +94,41 @@
   @media only screen and (min-width: 900px) {
     .mobile-view {
       display: none;
+    }
+  }
+
+  @keyframes navbar-option {
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 0.1;
+    }
+    20%{
+        opacity: 0.2;
+    }
+    30%{
+        opacity: 0.3;
+    }
+    40%{
+        opacity: 0.4;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    60%{
+        opacity: 0.6;
+    }
+    70%{
+        opacity: 0.7;
+    }
+    80%{
+        opacity: 0.8;
+    }
+    90%{
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 1;
     }
   }

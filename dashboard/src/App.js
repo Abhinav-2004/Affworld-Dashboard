@@ -8,6 +8,7 @@ import FifthSection from './Components/FifthSection/FifthSection'
 import SixthSection from './Components/SixthSection/SixthSection'
 import SeventhSection from './Components/SeventhSection/SeventhSection'
 import Navbar from './Components/Navbar/Navbar'
+import Footer from './Components/Footer/Footer'
 const App = () => {
   return (
     <>
@@ -19,6 +20,7 @@ const App = () => {
     <FifthSection/>
     <SixthSection/>
     <SeventhSection/>
+    <Footer/>
     </>
   )
 }
