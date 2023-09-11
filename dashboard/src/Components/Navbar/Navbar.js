@@ -238,7 +238,7 @@ const Navbar = () => {
             <div className="flex justify-center items-center">Company</div>
           </div>
         </button>
-        <button className="optionFeaturesn flex justify-center items-center gap-10 text-md font-semibold">
+        <button className="optionFeatures flex justify-center items-center gap-10 text-md font-semibold">
           <div className="flex justify-center items-center">
             <div className="flex justify-center items-center">Blog</div>
           </div>
