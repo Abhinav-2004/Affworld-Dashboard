@@ -20,7 +20,7 @@ const Navbar = () => {
             onMouseOut={()=>{setDisplayFeatures(false)}}
         >
           <div className="flex justify-center items-center">Features</div>
-          <div className="flex justify-center items-center">
+          <div className="arrow flex justify-center items-center">
             <AiOutlineDown
               className="flex justify-center items-center"
               size={13}
@@ -30,9 +30,9 @@ const Navbar = () => {
         <button className="optionFeatures flex justify-between items-center gap-10 text-xl font-semibold">
           <div className="flex justify-center items-center gap-2">
             <div className="flex justify-center items-center">Solutions</div>
-            <div className="flex justify-center items-center">
+            <div className="arrow flex justify-center items-center">
               <AiOutlineDown
-                className="flex justify-center items-center"
+                className=" flex justify-center items-center"
                 size={13}
               />
             </div>
@@ -41,7 +41,7 @@ const Navbar = () => {
         <button className="optionFeatures flex justify-between items-center gap-10 text-xl font-semibold">
           <div className="flex justify-center items-center gap-2">
             <div className="flex justify-center items-center">Ad Format</div>
-            <div className="flex justify-center items-center">
+            <div className="arrow flex justify-center items-center">
               <AiOutlineDown
                 className="flex justify-center items-center"
                 size={13}
@@ -52,7 +52,7 @@ const Navbar = () => {
         <button className="optionFeatures flex justify-between items-center gap-10 text-xl font-semibold">
           <div className="flex justify-center items-center gap-2">
             <div className="flex justify-center items-center">Resources</div>
-            <div className="flex justify-center items-center">
+            <div className=" arrow flex justify-center items-center">
               <AiOutlineDown
                 className="flex justify-center items-center"
                 size={13}
@@ -63,7 +63,7 @@ const Navbar = () => {
         <button className="optionFeatures flex justify-between items-center gap-10 text-xl font-semibold">
           <div className="flex justify-center items-center gap-2">
             <div className="flex justify-center items-center">Company</div>
-            <div className="flex justify-center items-center">
+            <div className="arrow flex justify-center items-center">
               <AiOutlineDown
                 className="flex justify-center items-center"
                 size={13}
@@ -74,7 +74,7 @@ const Navbar = () => {
         <button className="optionFeatures flex justify-between items-center gap-10 text-xl font-semibold">
           <div className="flex justify-center items-center gap-2">
             <div className="flex justify-center items-center">Blog</div>
-            <div className="flex justify-center items-center">
+            <div className="arrow flex justify-center items-center">
               <AiOutlineDown
                 className="flex justify-center items-center"
                 size={13}
