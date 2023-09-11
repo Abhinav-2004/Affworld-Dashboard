@@ -19,3 +19,31 @@
 .footer-div-1{
    width:70%; 
 }
+.footer-div-2{
+    width: 15%;
+}
+.signup-text{
+    color:#392976;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 2px solid #392976;
+    border-right: 2px solid #392976;
+    border-radius: 5px;
+}
+.image1{
+    width: 30%;
+    margin-bottom: 50%;
+}
+.image2{
+    width: 20%;
+    margin-bottom: 50%;
+}
+.image3{
+    width: 20%;
+    margin-bottom: 50%;
+}
+
+.image4{
+    width:17%;
+    margin-bottom: 50%;
+}

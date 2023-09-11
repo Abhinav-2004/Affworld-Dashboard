@@ -70,10 +70,16 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="">
-        <div className="flex flex-col justify-start items-center">
-            <div className="flex justify-start items-center">SignUp for AffWorld Updates</div>
-            <div>Click here to Signup</div>
+      <div className="footer-div-2 flex flex-col justify-between items-start gap-20">
+        <div className="flex flex-col justify-start items-center gap-10">
+            <div className="flex justify-start items-center text-[#9e4bf1]">SignUp for AffWorld Updates</div>
+            <div className="signup-text">Click here to Signup</div>
+        </div>
+        <div className="flex flex-row justify-center items-center gap-0">
+          <div className="image1"><img src="/assets/images/applepaylogo.png"/></div>
+          <div className="image2"><img src="/assets/images/mastercardlogo.png"/></div>
+          <div className="image3"><img src="/assets/images/paypal.png"/></div>
+          <div className="image4"><img src="/assets/images/bitcoin.png"/></div>
         </div>
       </div>
     </div>
