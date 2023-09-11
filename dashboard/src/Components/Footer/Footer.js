@@ -3,7 +3,7 @@ import "../../CSS/Footer.css";
 import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 import { BiLogoGoogle } from "react-icons/bi";
 const Footer = () => {
-  return (
+  return (<>
     <div className="footer-main-div flex justify-between items-center w-[100%]">
       <div className="footer-div-1 flex justify-between items-start">
         <div className="footer-bio flex flex-col justify-start items-center">
@@ -83,7 +83,24 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  );
+
+    <div className="footer-bottom-div">
+      <div className="bottom-text flex justify-center items-center font-semibold ">
+        © 2023 AffWorld.in
+      </div>
+
+      <div className="bottom-navbar flex justify-between items-center gap-2 font-semibold ">
+        <div className="bottom-text flex justify-center items-center text-center">Terms & Policies</div>
+        <div className="bottom-text flex justify-center items-center">Terms for publisher</div>
+        <div className="bottom-text flex justify-center items-center">Privacy Policy</div>
+        <div className="bottom-text flex justify-center items-center">Cookies policy</div>
+      </div>
+
+      <div className="bottom-text flex justify-center items-center font-bold ">
+        Report Abuse
+      </div>
+    </div>
+  </>);
 };
 
 export default Footer;
