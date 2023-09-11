@@ -68,3 +68,56 @@
 .bottom-text{
     color:brown
 }
+
+.mobile-view{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+    .desktop-view{
+        display:none;
+    }
+    .footer-div-1{
+        width:100%; 
+     }
+     .footer-div-2{
+         width: 100%;
+         margin-top: 20%;
+     }
+     .footer-bio{
+        width:90%;
+        gap:20px;
+    }
+    .bottom-text{
+        font-size:10px;
+    }
+    .footer-bottom-div{
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-top: 10%;
+    }
+    .image1{
+        width: 30%;
+        margin-bottom: 5%;
+    }
+    .image2{
+        width: 20%;
+        margin-bottom: 5%;
+    }
+    .image3{
+        width: 20%;
+        margin-bottom: 5%;
+    }
+    
+    .image4{
+        width:17%;
+       margin-bottom: 5%;
+    }
+  }
+  @media only screen and (min-width: 900px) {
+    .desktop-view{
+        display:none;
+    }
+  }
+

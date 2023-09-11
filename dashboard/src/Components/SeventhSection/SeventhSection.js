@@ -15,7 +15,7 @@ const SeventhSection = () => {
         Frequently Asked Questions
       </div>
       <div className="accordion-div flex justify-center items-center w-[100%] mt-[5%]">
-        <Accordion>
+        <Accordion allowToggle>
           <AccordionItem sx={{width:"70vw", padding:'10px'}}
           >
             <h2>
