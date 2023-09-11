@@ -210,7 +210,7 @@ const Navbar = () => {
       </div>
     </div>
     {mobileDisplay && <div className="hover-model-features-mobile">
-    <div className="absolute z-50 bg-white w-[100vw] flex-row justify-center items-center">
+    <div className="hover-model-div-mobile absolute z-50 bg-[white] w-[100vw] flex-row justify-center items-center">
     <div className="flex flex-row justify-center items-center">
     <div className="middle-options flex-col justify-center items-center text-md font-semibold" >
         <div className="flex flex-col gap-10">
