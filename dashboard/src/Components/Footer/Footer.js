@@ -4,7 +4,7 @@ import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 import { BiLogoGoogle } from "react-icons/bi";
 const Footer = () => {
   return (<>
-    <div className="dekstop-view">
+    <div className="dekstop-view-footer">
     <div className="footer-main-div flex justify-between items-center w-[100%]">
       <div className="footer-div-1 flex justify-between items-start">
         <div className="footer-bio flex flex-col justify-start items-center">
@@ -73,7 +73,7 @@ const Footer = () => {
 
       <div className="footer-div-2 flex flex-col justify-between items-start gap-20">
         <div className="flex flex-col justify-start items-center gap-10">
-            <div className="flex justify-start items-center text-[#9e4bf1]">SignUp for AffWorld Updates</div>
+            <div className="signup-text-before flex justify-start items-center text-[#9e4bf1]">SignUp for AffWorld Updates</div>
             <div className="signup-text">Click here to Signup</div>
         </div>
         <div className="flex flex-row justify-center items-center gap-0">

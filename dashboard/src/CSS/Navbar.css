@@ -75,7 +75,6 @@
 }
 
 
-
 @media only screen and (max-width: 900px) {
     .dekstop-view {
       display: none;
@@ -85,12 +84,22 @@
     }
   }
 
+  @media only screen and (max-width: 1400px) {
+    .optionFeatures{
+        font-size: 12px;
+    }
+    .middle-options{
+        gap:10px;
+    }
+    .affworld-logo{
+        font-size: 17px;
+    }
+  }
   @media only screen and (max-width: 563px) {
     .mobile-view .button-container .start-button{
         display: none;
     }
   }
-
   @media only screen and (min-width: 900px) {
     .mobile-view {
       display: none;

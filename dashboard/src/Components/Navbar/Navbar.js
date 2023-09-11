@@ -8,7 +8,7 @@ const Navbar = () => {
     const [displayFeatures, setDisplayFeatures]=useState(false);
     const [mobileDisplay,setMobileDisplay]=useState(false);
   return (<>
-    <div className="desktop-view Navbar-container flex justify-between items-center">
+    <div className="dekstop-view Navbar-container flex justify-between items-center">
       <div className="flex justify-center items-center text-3xl font-semibold affworld-logo">
         Affworld Technologies
       </div>

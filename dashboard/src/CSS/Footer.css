@@ -74,9 +74,34 @@
     padding-right: 10px;
 }
 
-@media only screen and (max-width: 900px) {
-    .desktop-view{
-        display:none;
+
+  @media only screen and (max-width: 1300px) {
+    .footer-main-div{
+        display: flex;
+        flex-direction: column;
+        gap:50px;
+        padding: 0%;
+    }
+    .signup-text-before{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .signup-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-div-1{
+        width: 90%;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .dekstop-view-footer{
+        display: none;
     }
     .footer-div-1{
         width:100%; 
@@ -115,8 +140,9 @@
        margin-bottom: 5%;
     }
   }
+
   @media only screen and (min-width: 900px) {
-    .desktop-view{
+    .mobile-view{
         display:none;
     }
   }
